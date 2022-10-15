@@ -1,0 +1,1 @@
+Each folder will contain the low level projects and I have written in my first sprint at ALX Software Engineering. Details on each projects are located in READMEs in every folder. The focus of these projects are to master computer science concepts and to practice the theory behind C, algorithms, and basic data structures.
