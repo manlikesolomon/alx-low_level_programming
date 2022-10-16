@@ -6,7 +6,7 @@
  * Return: Returns zero for success
  */
 
-int main (void)
+int main(void)
 {
 	char alpha;
 
