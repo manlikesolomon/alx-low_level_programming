@@ -1,4 +1,4 @@
-#include main.h
+#include "main.h"
 /**
  * main - prints the string _putchar
  * Description: standard libraries are not used
@@ -15,6 +15,6 @@ int main(void)
 		_putchar(string[i]);
 		i++;
 	}
-	_putchar('\n')
+	_putchar('\n');
 	return (0);
 }
