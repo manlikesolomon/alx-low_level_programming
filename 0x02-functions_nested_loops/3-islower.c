@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * int _islower - fuching checks if a charachter is lowercase
+ * _islower - fuching checks if a charachter is lowercase
+ * @c: char type letter
  * Return: 1 for lowercase
  */
 
@@ -12,6 +13,6 @@ int _islower(int c)
 	}
 	else
 	{
-		return (0)
+		return (0);
 	}
 }
