@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - prints 0 to 100 with buzz fizz test
+ * main - prints 1 to 100 with buzz fizz test
  * Return: 0 for success
  */
 
@@ -8,9 +8,9 @@ int main(void)
 {
 	int i = 1;
 
-	for (i = 0; i <= 100; i++)
+	for (i = 1; i <= 100; i++)
 	{
-		if (i != 0 && i % 3 == 0 && i % 5 == 0)
+		if (i % 3 == 0 && i % 5 == 0)
 		{
 			printf("FizzBuzz");
 		}
@@ -26,7 +26,10 @@ int main(void)
 		{
 			printf("%d", i);
 		}
+		if (i < 100)
+		{
+			printf(' ');
+		}
 	}
-	printf(" ");
 	return (0);
 }
