@@ -20,7 +20,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 
 	if (!array)
 		return (NULL);
-	filler = mem;
+	filler = array;
 
 	for (i = 0; i < nmemb; i++)
 		filler[i] = '\0';
